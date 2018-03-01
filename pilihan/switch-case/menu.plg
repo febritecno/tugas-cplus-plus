@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: menu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\404\AppData\Local\Temp\RSP325F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/menu.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\FEBRIAN\SEKOLAH\praktik saiki\pilihan\switch-case\menu.cpp"
+]
+Creating command line "cl.exe @C:\Users\404\AppData\Local\Temp\RSP325F.tmp" 
+<h3>Output Window</h3>
+Compiling...
+menu.cpp
+G:\FEBRIAN\SEKOLAH\praktik saiki\pilihan\switch-case\menu.cpp(136) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+G:\FEBRIAN\SEKOLAH\praktik saiki\pilihan\switch-case\menu.cpp(71) : error C4716: 'jajar' : must return a value
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+menu.obj - 1 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

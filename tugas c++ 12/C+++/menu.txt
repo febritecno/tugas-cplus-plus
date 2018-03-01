@@ -1,0 +1,122 @@
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+using namespace std;
+int pilih;
+void satu(){
+system("cls");
+	cout<<"Maaf,kamu belum terdaftar"<<endl;
+	cout<<"sebagai member Loop Portal."<<endl;
+	cout<<"Untuk dapat mengaktifkan"<<endl;
+	cout<<"LOOP Sharing-an kamu harus"<<endl;
+	cout<<"terdaftar sbg member portal."<<endl;
+	cout<<"Akses ke ww.loop.co.id"<<endl;
+}
+void dua(){
+system("cls");
+	cout<<"hdfjfskkkkkkkkkkkkkksks"<<endl;
+}
+void main(){
+
+APLIKASI:
+system("cls");
+cout<<"1. LOOP Sharing-an"<<endl;
+cout<<"2. HOT PROMO"<<endl;
+cout<<"3. Internet"<<endl;
+cout<<"4. SmauLOOP"<<endl;
+cout<<"5. Hiburan"<<endl;
+cout<<"6. Int'l Roaming"<<endl;
+cout<<"7. Telkomsel Poin"<<endl;
+cout<<"8. Tcash&Lain"<<endl;
+cout<<"silahkan pilih menu:";cin>>pilih;
+if (pilih==1){
+	satu();
+cout<<"Kembali:";cin>>pilih;
+if (pilih==9){
+	goto APLIKASI;
+}
+}
+void main(){
+
+APLIKASI:
+system("cls");
+cout<<"1. LOOP Sharing-an"<<endl;
+cout<<"2. HOT PROMO"<<endl;
+cout<<"3. Internet"<<endl;
+cout<<"4. SmauLOOP"<<endl;
+cout<<"5. Hiburan"<<endl;
+cout<<"6. Int'l Roaming"<<endl;
+cout<<"7. Telkomsel Poin"<<endl;
+cout<<"8. Tcash&Lain"<<endl;
+cout<<"silahkan pilih menu:";cin>>pilih;
+if (pilih==2){
+	dua();
+cout<<"Kembali:";cin>>pilih;
+if (pilih==9){
+	goto APLIKASI;
+}
+}
+
+
+
+
+
+
+
+
+
+#include <iostream>
+#include <Conio.h>
+#include <Windows.h>
+using namespace std;
+char P,q;
+
+
+void menu1() {
+
+			system("cls");
+
+}
+
+void menu2() {
+
+			system("cls");
+
+}
+
+
+
+
+void main() {
+MENU:
+puts("#       Apilkasi Gateway *444#       #");
+puts("#         	Milik Indosat		   #");
+puts("#       Create @ Febrian Dwi P.      #");
+puts("#------------------------------------#");
+puts("");
+system ("color 5B");
+cout<<"# ";cin>>P;
+puts("--------------------------------------");
+if (P==){
+			menu1();
+			system ("color 2F");
+			puts("");
+			puts("");
+			cout<<"Pkt 4G (600MB + 3G jam 01-06 +"<<endl;
+			cout<<"400 MB jam 09-17),"<<endl;
+			cout<<"Rp29,900rb/30hr,kec sd42Mbps."<<endl;
+			cout<<"Klebihan pmakaian:Rp1.5/KB"<<endl;
+			puts("");
+			cout<<"1 Langganan"<<endl;
+			puts("");
+			cin>>q;
+			if (q==1){
+			menu2();
+			puts("");
+			puts("");
+			cout<<"Sudah terkirim"<<endl;
+			goto MENU;
+			}
+			
+}
+}
